@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="master.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <script src="master.js"></script>
+
+  </head>
+
+<body>
+
+    <div class="jumbotron">
+      <h1>Welcome</h1>
+    </div>
+
+    <div class="container">
+      <div class="input-group mb-3">
+        <input type="number" id="num" class="form-control" placeholder="Enter the number of Users you want..." required>
+        <div class="input-group-append">
+          <button class="btn btn-outline-success" onclick="loadDoc()" type="button">Load Random User Table Data</button>
+        </div>
+      </div>
+      
+      <div class="box table-responsive">
+        <table id="myTable" class="display table" style="width:100%">
+          <thead class="thead-dark">
+                <tr>
+                  <th>Gender</th>
+                  <th>Postcode</th>
+                  <th>Email</th>
+                  <th>Username</th>
+                  <th>Phone</th>
+                </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table><br><br>
+      </div>
+    </div>
+
+  <footer>
+    <p></p> <br>
+    <p></p><br>
+    <br><br>
+  </footer>
+</body>
+
+</html>

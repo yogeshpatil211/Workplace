@@ -1,0 +1,21 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+#gender{
+  text-transform: capitalize;
+}
+
+footer {
+    background-color: #20014c;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.jumbotron{
+  background-color: #01193f;
+  color: white;
+  text-align: center;
+}

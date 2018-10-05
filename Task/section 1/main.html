@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="master.css">
+    <script src="master.js"> </script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="jumbotron">
+      <h1>Welcome</h1>
+    </div>
+
+    <div class="container">
+      <form >
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-8">
+
+              <div class="form-group">
+                <label for="">Gender</label>
+                <input type="text" class="form-control" id="gender" placeholder="Gender" disabled>
+              </div>
+
+              <div class="form-group">
+                <label for="">Postcode</label>
+                <input type="text" class="form-control" id="postcode" placeholder="Enter Postcode" disabled>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" disabled>
+              </div>
+
+              <div class="form-group">
+                <label >Username</label>
+                <input type="text" class="form-control" id="username"  placeholder="Enter Username" disabled>
+              </div>
+
+            </div>
+
+            <div class="col-md-4 pull-right">
+              <div class="pull-right">
+                <label class="header">Profile Photo</label><br>
+                <img id="img" src="s.png" alt="image" width="80%" height="70%">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="form-group">
+          <div class="row">
+          <div class="col-md-6">
+            <label >Phone Number</label>
+            <input type="text" class="form-control" id="phone" placeholder="Enter Phone Number" disabled>
+          </div>
+          <div class="col-md-6">
+            <label >Cell Number</label>
+            <input type="text" class="form-control" id="cell" disabled>
+          </div>
+          </div>
+
+        </div>
+
+        
+        <button type="button" onclick="loadDoc()" class="btn btn-primary btn-lg">Load Random User</button> <br> <br>
+
+      </form>
+
+    </div>
+
+    <footer>
+      <p></p> <br>
+      <p></p><br>
+      <br><br>
+    </footer>
+
+  </body>
+</html>
